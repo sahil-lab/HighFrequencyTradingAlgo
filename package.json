@@ -1,0 +1,43 @@
+{
+  "name": "binance-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node tradingtr111.js",
+    "dev": "nodemon tradingtr111.js",
+    "simulate": "node tradingtr111.js --mode=simulation"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "async-mutex": "^0.5.0",
+    "avalanche": "^3.16.0",
+    "axios": "^1.7.7",
+    "bottleneck": "^2.19.5",
+    "cheerio": "^1.0.0",
+    "decimal.js": "^10.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "glob": "^11.0.0",
+    "inquirer": "^12.0.0",
+    "lightweight-charts": "^4.2.1",
+    "lru-cache": "^11.0.2",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.1",
+    "node-binance-api": "^0.13.1",
+    "playwright": "^1.48.2",
+    "puppeteer": "^23.6.1",
+    "readline": "^1.3.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "rimraf": "^6.0.1",
+    "selenium-webdriver": "^4.26.0",
+    "technicalindicators": "^3.1.0",
+    "winston": "^3.15.0",
+    "winston-daily-rotate-file": "^5.0.0",
+    "ws": "^8.18.0"
+  }
+}
