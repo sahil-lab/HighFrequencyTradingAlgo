@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trading Simulation Dashboard</title>
+    <script src="https://unpkg.com/lightweight-charts/dist/lightweight-charts.standalone.production.js"></script>
+    <style>
+        .chart-container {
+            margin: 20px;
+        }
+
+        .stats-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .stat-box {
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f8f9fa;
+            min-width: 200px;
+        }
+
+        .trade-history {
+            margin: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .trade-entry {
+            padding: 5px 0;
+            border-bottom: 1px solid #eee;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="chart-container">
+        <div id="price-chart"></div>
+        <div id="volume-chart"></div>
+    </div>
+    <div class="stats-container">
+        <div class="stat-box" id="spot-stats"></div>
+        <div class="stat-box" id="futures-stats"></div>
+    </div>
+    <div class="trade-history" id="trade-history"></div>
+    <script src="/dashboard.js"></script>
+</body>
+
+</html>
